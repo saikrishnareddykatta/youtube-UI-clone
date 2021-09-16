@@ -1,0 +1,12 @@
+.sidebar {
+  flex: 0.2;
+  /* this component is child of app__page container, we have to maintain the flex of 1, we used 0.2 here and the remaining 0.8 in recommendedVideos*/
+}
+
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
